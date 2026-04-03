@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - DB_URL=mongodb+srv://toan2251220252_db_user:toan123@cluster0.httfmkm.mongodb.net/?appName=Cluster0
+      - APP_NAME=Work Manager
+    networks:
+      - work-manager-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - work-manager-network
+    depends_on:
+      - backend
+
+networks:
+  work-manager-network:
+    driver: bridge

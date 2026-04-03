@@ -1,0 +1,68 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+.student-avatar {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.about-card h2 {
+  color: #667eea;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.info-item label {
+  font-weight: bold;
+  color: #667eea;
+  width: 40%;
+}
+
+.info-item span {
+  color: #333;
+  width: 60%;
+  text-align: right;
+}
+
+.about-card hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 2px solid #667eea;
+}
+
+.app-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.app-info h3 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.app-info p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
