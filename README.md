@@ -9,9 +9,9 @@ A Task Manager application built with:
 
 ## 👤 Student Information
 
-- **Name**: Nguyễn Bảo Toàn
+- **Name**: Phan Phúc Toàn
 - **Student ID**: 2251220252
-- **Class**: DCVT-K47
+- **Class**: 22ct1
 
 ## ✨ Features
 

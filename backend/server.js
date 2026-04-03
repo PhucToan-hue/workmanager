@@ -44,9 +44,9 @@ app.get('/health', (req, res) => {
 // About - Student Info
 app.get('/about', (req, res) => {
   res.json({
-    name: 'Nguyễn Bảo Toàn',
+    name: 'Phan Phúc Toàn',
     studentId: '2251220252',
-    class: 'DCVT-K47',
+    class: '22ct1',
     application: 'Task Manager / Work Manager',
     description: 'A simple application to manage daily tasks and to-do items'
   });
